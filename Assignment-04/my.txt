@@ -1,0 +1,66 @@
+---------------------------------------
+Begin Slurm Prolog: Feb-18-2024 15:48:48
+Job ID:    282022
+User ID:   vsivaraman3
+Account:   isye
+Job name:  cuda.sbatch
+Partition: pace-gpu
+---------------------------------------
+---------------------------------------
+Begin Slurm Epilog: Feb-18-2024 15:48:50
+Job ID:        282022
+Array Job ID:  _4294967294
+User ID:       vsivaraman3
+Account:       isye
+Job name:      cuda.sbatch
+Resources:     cpu=1,gres/gpu:v100=1,mem=4G,node=1
+Rsrc Used:     cput=00:00:01,vmem=444K,walltime=00:00:01,mem=0,energy_used=0
+Partition:     pace-gpu
+Nodes:         atl1-1-02-009-31-0
+---------------------------------------
+2,4c2,4
+< Begin Slurm Prolog: Feb-18-2024 15:48:48
+< Job ID:    282022
+< User ID:   vsivaraman3
+---
+> Begin Slurm Prolog: Feb-13-2024 21:03:47
+> Job ID:    279474
+> User ID:   nsahinidis3
+10,11c10,11
+< Begin Slurm Epilog: Feb-18-2024 15:48:50
+< Job ID:        282022
+---
+> Begin Slurm Epilog: Feb-13-2024 21:03:49
+> Job ID:        279474
+13c13
+< User ID:       vsivaraman3
+---
+> User ID:       nsahinidis3
+16,17c16,17
+< Resources:     cpu=1,gres/gpu:v100=1,mem=4G,node=1
+< Rsrc Used:     cput=00:00:01,vmem=444K,walltime=00:00:01,mem=0,energy_used=0
+---
+> Resources:     cpu=1,gres/gpu:rtx_6000=1,mem=4G,node=1
+> Rsrc Used:     cput=00:00:02,vmem=77884K,walltime=00:00:02,mem=0,energy_used=0
+19c19
+< Nodes:         atl1-1-02-009-31-0
+---
+> Nodes:         atl1-1-01-005-5-0
+3c3
+< Device 0: "Tesla V100-PCIE-16GB"
+---
+> Device 0: "Quadro RTX 6000"
+5,8c5,8
+<   Minor revision number:                         0
+<   Total amount of global memory:                 4050780160 bytes
+<   Number of multiprocessors:                     80
+<   Number of cores:                               640
+---
+>   Minor revision number:                         5
+>   Total amount of global memory:                 2318532608 bytes
+>   Number of multiprocessors:                     72
+>   Number of cores:                               576
+18c18
+<   Clock rate:                                    1.38 GHz
+---
+>   Clock rate:                                    1.62 GHz

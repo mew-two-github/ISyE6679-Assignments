@@ -1,0 +1,20 @@
+---------------------------------------
+Begin Slurm Prolog: Feb-13-2024 21:03:47
+Job ID:    279474
+User ID:   nsahinidis3
+Account:   isye
+Job name:  cuda.sbatch
+Partition: pace-gpu
+---------------------------------------
+---------------------------------------
+Begin Slurm Epilog: Feb-13-2024 21:03:49
+Job ID:        279474
+Array Job ID:  _4294967294
+User ID:       nsahinidis3
+Account:       isye
+Job name:      cuda.sbatch
+Resources:     cpu=1,gres/gpu:rtx_6000=1,mem=4G,node=1
+Rsrc Used:     cput=00:00:02,vmem=77884K,walltime=00:00:02,mem=0,energy_used=0
+Partition:     pace-gpu
+Nodes:         atl1-1-01-005-5-0
+---------------------------------------
