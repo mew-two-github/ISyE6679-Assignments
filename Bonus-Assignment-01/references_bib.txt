@@ -1,0 +1,13 @@
+@article{WANG2021,
+title = {Fast parallel Newton–Raphson power flow solver for large number of system calculations with CPU and GPU},
+journal = {Sustainable Energy, Grids and Networks},
+volume = {27},
+pages = {100483},
+year = {2021},
+issn = {2352-4677},
+doi = {https://doi.org/10.1016/j.segan.2021.100483},
+url = {https://www.sciencedirect.com/science/article/pii/S2352467721000540},
+author = {Zhenqi Wang and Sebastian {Wende-von Berg} and Martin Braun},
+keywords = {Probabilistic Power Flow, Monte Carlo Simulation, Contingency analysis, GPU-acceleration, Newton–Raphson, Parallel computing},
+
+}

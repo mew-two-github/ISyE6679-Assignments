@@ -1,0 +1,1 @@
+1. Fast parallel Newton–Raphson power flow solver for large number of system calculations with CPU and GPU
